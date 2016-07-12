@@ -4,10 +4,8 @@ public HelloWorld{
     saySomething("HelloWorld");
   }
 
-  public String saySomething(String word){
- 
+  public static void saySomething(String word){
     System.out.println("You say ：" + word);
-  
   }
 
 }
